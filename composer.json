@@ -2,6 +2,11 @@
     "name": "sylius/product-bundle",
     "type": "symfony-bundle",
     "description": "Product catalog for your Symfony applications.",
+    "repositories": [{
+          "type": "vcs",
+          "url": "https://github.com/liyo/SyliusResourceBundle"
+        }
+    ],
     "keywords": [
         "shop",
         "ecommerce",
