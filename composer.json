@@ -36,7 +36,7 @@
         "sylius/attribute-bundle": "^1.6",
         "sylius/locale-bundle": "^1.6",
         "sylius/product": "^1.6",
-        "sylius/resource-bundle": "dev-master",
+        "sylius/resource-bundle": "dev-latest",
         "symfony/framework-bundle": "^4.4"
     },
     "require-dev": {
