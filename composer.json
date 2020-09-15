@@ -28,8 +28,8 @@
     "require": {
         "php": "^7.3",
         "stof/doctrine-extensions-bundle": "^1.4",
-        "sylius/attribute-bundle": "^1.6",
-        "sylius/locale-bundle": "^1.6",
+        "sylius/attribute-bundle": "dev-latest",
+        "sylius/locale-bundle": "dev-latest",
         "sylius/product": "^1.6",
         "sylius/resource-bundle": "dev-latest",
         "symfony/framework-bundle": "^4.4"
@@ -70,8 +70,14 @@
             "type": "path",
             "url": "../../*/*"
         }, {
-          "type": "vcs",
-          "url": "https://github.com/liyo/SyliusResourceBundle"
+            "type": "vcs",
+            "url": "https://github.com/liyo/SyliusResourceBundle"
+        }, {
+            "type": "vcs",
+            "url": "https://github.com/liyo/SyliusLocaleBundle"
+        }, {
+            "type": "vcs",
+            "url": "https://github.com/liyo/SyliusAttributeBundle"
         }
     ],
     "minimum-stability": "dev",
